@@ -1,0 +1,510 @@
+2014-09-24 17:07:34 | frontend.info | INFO  |act=push_room_notify&rid=10&to_uid=608598&notify={"uid":608598,"rid":10,"from_uid":20674522,"push_data_type":1,"act":"push"}
+2014-09-24 17:07:34 | frontend.info | INFO  |act=push_room_notify&rid=10&to_uid=20674522&notify={"uid":20674522,"rid":10,"from_uid":608598,"push_data_type":1,"act":"push"}
+2014-09-24 17:07:34 | frontend.info | INFO  |act=push_room_notify&rid=10&to_uid=20674522&notify={"uid":20674522,"rid":10,"from_uid":608598,"push_data_type":1,"act":"push"}
+2014-09-24 17:07:34 | frontend.info | INFO  |act=push_room_notify&rid=10&to_uid=20674522&notify={"uid":20674522,"rid":10,"from_uid":608598,"push_data_type":1,"act":"push"}
+2014-09-24 17:07:34 | frontend.info | INFO  |act=push_room_notify&rid=10&to_uid=608598&notify={"uid":608598,"rid":10,"from_uid":20674522,"push_data_type":1,"act":"push"}
+2014-09-24 17:07:34 | frontend.info | INFO  |30 | PushNotifyAction | 0 | request={"uid":20674522,"rid":10,"from_uid":608598,"push_data_type":1,"act":"push"}&response={"code":0,"act":"push_response"}
+2014-09-24 17:07:34 | frontend.info | INFO  |30 | PushNotifyAction | 0 | request={"uid":608598,"rid":10,"from_uid":20674522,"push_data_type":1,"act":"push"}&response={"code":0,"act":"push_response"}
+2014-09-24 17:07:34 | frontend.info | INFO  |30 | PushNotifyAction | 0 | request={"uid":20674522,"rid":10,"from_uid":608598,"push_data_type":1,"act":"push"}&response={"code":0,"act":"push_response"}
+2014-09-24 17:07:34 | frontend.info | INFO  |30 | PushNotifyAction | 0 | request={"uid":608598,"rid":10,"from_uid":20674522,"push_data_type":1,"act":"push"}&response={"code":0,"act":"push_response"}
+2014-09-24 17:07:34 | frontend.info | INFO  |30 | PushNotifyAction | 0 | request={"uid":20674522,"rid":10,"from_uid":608598,"push_data_type":1,"act":"push"}&response={"code":0,"act":"push_response"}
+2014-09-24 17:08:09 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 17:08:09 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 17:08:09 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 17:08:09 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 17:08:09 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 17:22:13 | frontend.info | INFO  |act=atom&uid=131180&post_data={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}
+2014-09-24 17:22:13 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-09-24 17:22:13 | frontend.info | INFO  |526 | AtomicAction | 0 | request={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":0,"act":"atom_response"}
+2014-09-24 17:22:13 | frontend.info | INFO  |act=enter_room&uid=131180&rid=10050726&post_data={"rid":10050726,"act":"enter_room","seq_id":2}
+2014-09-24 17:22:13 | frontend.info | INFO  |81 | EnterRoomAction | 0 | request={"rid":10050726,"act":"enter_room","seq_id":2}&response={"seq_id":2,"code":0,"act":"enter_room_response"}
+2014-09-24 17:22:13 | frontend.info | INFO  |act=pull_room_msg&uid=131180&rid=10050726&post_data={"target_id":10050726,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}
+2014-09-24 17:22:13 | frontend.info | INFO  |431 | PullMessageAction | 0 | request={"target_id":10050726,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}&response={"data":{"msg_count":0,"msg_list":[],"enter_user_count":1},"seq_id":3,"code":0,"act":"pull_msg_response"}
+2014-09-24 17:22:16 | frontend.info | INFO  |act=send_room_msg&uid=131180&rId=10050726&post_data={"to_uid":"","content":"2","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":4}
+2014-09-24 17:22:16 | frontend.info | INFO  |53 | SendMessageAction | 0 | request={"to_uid":"","content":"2","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":4}&response={"data":{"msg_id":6},"seq_id":4,"code":0,"act":"send_msg_response"}
+2014-09-24 17:22:17 | frontend.info | INFO  |act=pull_room_msg&uid=131180&rid=10050726&post_data={"target_id":10050726,"chat_type":1,"msg_id_min":0,"page_size":50,"act":"pull_msg","seq_id":5}
+2014-09-24 17:22:17 | frontend.info | INFO  |433 | PullMessageAction | 0 | request={"target_id":10050726,"chat_type":1,"msg_id_min":0,"page_size":50,"act":"pull_msg","seq_id":5}&response={"data":{"msg_count":1,"msg_list":[{"content":"2","duration":0,"status":1,"msg_type":1,"msg_id":6,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411550536227}],"enter_user_count":1},"seq_id":5,"code":0,"act":"pull_msg_response"}
+2014-09-24 17:22:44 | frontend.info | INFO  |act=send_room_msg&uid=131180&rId=10050726&post_data={"to_uid":"","content":"222","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":6}
+2014-09-24 17:22:44 | frontend.info | INFO  |83 | SendMessageAction | 0 | request={"to_uid":"","content":"222","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":6}&response={"data":{"msg_id":7},"seq_id":6,"code":0,"act":"send_msg_response"}
+2014-09-24 17:22:44 | frontend.info | INFO  |act=pull_room_msg&uid=131180&rid=10050726&post_data={"target_id":10050726,"chat_type":1,"msg_id_min":6,"page_size":50,"act":"pull_msg","seq_id":7}
+2014-09-24 17:22:44 | frontend.info | INFO  |315 | PullMessageAction | 0 | request={"target_id":10050726,"chat_type":1,"msg_id_min":6,"page_size":50,"act":"pull_msg","seq_id":7}&response={"data":{"msg_count":1,"msg_list":[{"content":"222","duration":0,"status":1,"msg_type":1,"msg_id":7,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411550563989}],"enter_user_count":1},"seq_id":7,"code":0,"act":"pull_msg_response"}
+2014-09-24 17:23:20 | frontend.info | INFO  |act=send_room_msg&uid=131180&rId=10050726&post_data={"to_uid":"","content":"333","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":8}
+2014-09-24 17:23:20 | frontend.info | INFO  |62 | SendMessageAction | 0 | request={"to_uid":"","content":"333","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":8}&response={"data":{"msg_id":8},"seq_id":8,"code":0,"act":"send_msg_response"}
+2014-09-24 17:23:20 | frontend.info | INFO  |act=pull_room_msg&uid=131180&rid=10050726&post_data={"target_id":10050726,"chat_type":1,"msg_id_min":7,"page_size":50,"act":"pull_msg","seq_id":9}
+2014-09-24 17:23:20 | frontend.info | INFO  |259 | PullMessageAction | 0 | request={"target_id":10050726,"chat_type":1,"msg_id_min":7,"page_size":50,"act":"pull_msg","seq_id":9}&response={"data":{"msg_count":1,"msg_list":[{"content":"333","duration":0,"status":1,"msg_type":1,"msg_id":8,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411550600019}],"enter_user_count":1},"seq_id":9,"code":0,"act":"pull_msg_response"}
+2014-09-24 17:27:51 | frontend.info | INFO  |act=quit_room&uid=131180&rid=10050726&post_data={"act":"quit_room","seq_id":10}
+2014-09-24 17:27:51 | frontend.info | INFO  |34 | QuitRoomAction | 0 | request={"act":"quit_room","seq_id":10}&response={"seq_id":10,"code":0,"act":"quit_room_response"}
+2014-09-24 17:27:51 | frontend.info | INFO  |userId=131180&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 17:27:51 | frontend.info | INFO  |act=close_websocket&userId=131180&roomId=0&enterRoomTimes=1411550871385
+2014-09-24 17:27:51 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 17:27:51 | frontend.info | INFO  |act=atom&uid=178262&post_data={"uid":178262,"sid":"ff7b98b75b42f7f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}
+2014-09-24 17:27:51 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-09-24 17:27:51 | frontend.info | INFO  |222 | AtomicAction | 0 | request={"uid":178262,"sid":"ff7b98b75b42f7f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":0,"act":"atom_response"}
+2014-09-24 17:27:51 | frontend.info | INFO  |act=enter_room&uid=178262&rid=10050726&post_data={"rid":10050726,"act":"enter_room","seq_id":2}
+2014-09-24 17:27:51 | frontend.info | INFO  |13 | EnterRoomAction | 0 | request={"rid":10050726,"act":"enter_room","seq_id":2}&response={"seq_id":2,"code":0,"act":"enter_room_response"}
+2014-09-24 17:27:51 | frontend.info | INFO  |act=pull_room_msg&uid=178262&rid=10050726&post_data={"target_id":10050726,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}
+2014-09-24 17:27:51 | frontend.info | INFO  |182 | PullMessageAction | 0 | request={"target_id":10050726,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}&response={"data":{"msg_count":3,"msg_list":[{"content":"2","duration":0,"status":1,"msg_type":1,"msg_id":6,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic0.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411550536227},{"content":"222","duration":0,"status":1,"msg_type":1,"msg_id":7,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic0.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411550563989},{"content":"333","duration":0,"status":1,"msg_type":1,"msg_id":8,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic0.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411550600019}],"enter_user_count":1},"seq_id":3,"code":0,"act":"pull_msg_response"}
+2014-09-24 17:27:53 | frontend.info | INFO  |act=send_room_msg&uid=178262&rId=10050726&post_data={"to_uid":"","content":"222","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":4}
+2014-09-24 17:27:53 | frontend.info | INFO  |8 | SendMessageAction | 0 | request={"to_uid":"","content":"222","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":4}&response={"data":{"msg_id":9},"seq_id":4,"code":0,"act":"send_msg_response"}
+2014-09-24 17:27:53 | frontend.info | INFO  |act=pull_room_msg&uid=178262&rid=10050726&post_data={"target_id":10050726,"chat_type":1,"msg_id_min":8,"page_size":50,"act":"pull_msg","seq_id":5}
+2014-09-24 17:27:53 | frontend.info | INFO  |129 | PullMessageAction | 0 | request={"target_id":10050726,"chat_type":1,"msg_id_min":8,"page_size":50,"act":"pull_msg","seq_id":5}&response={"data":{"msg_count":1,"msg_list":[{"content":"222","duration":0,"status":1,"msg_type":1,"msg_id":9,"user":{"nick_name":"鸡油腻","id":178262,"type":1,"avatar":"http://pic0.mofang.com/275/967/ac13eaf3a9f584ff50a74b9dbf1d66563a05f9a5_80.png"},"time_stamp":1411550873269}],"enter_user_count":1},"seq_id":5,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:38:44 | frontend.info | INFO  |279 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:38:47 | frontend.info | INFO  |1 | SendMessageAction | 402 | request={"to_uid":"","content":"2","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":2}&response={"code":402,"act":"send_msg_response"}
+2014-09-24 18:38:56 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:38:56 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:38:56 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:39:01 | frontend.info | INFO  |act=atom&uid=131180&post_data={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}
+2014-09-24 18:39:01 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-09-24 18:39:01 | frontend.info | INFO  |300 | AtomicAction | 0 | request={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":0,"act":"atom_response"}
+2014-09-24 18:39:01 | frontend.info | INFO  |act=enter_room&uid=131180&rid=10050729&post_data={"rid":10050729,"act":"enter_room","seq_id":2}
+2014-09-24 18:39:01 | frontend.info | INFO  |23 | EnterRoomAction | 0 | request={"rid":10050729,"act":"enter_room","seq_id":2}&response={"seq_id":2,"code":0,"act":"enter_room_response"}
+2014-09-24 18:39:01 | frontend.info | INFO  |act=pull_room_msg&uid=131180&rid=10050729&post_data={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}
+2014-09-24 18:39:01 | frontend.info | INFO  |94 | PullMessageAction | 0 | request={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}&response={"data":{"msg_count":0,"msg_list":[],"enter_user_count":1},"seq_id":3,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:39:03 | frontend.info | INFO  |act=quit_room&uid=131180&rid=10050729&post_data={"act":"quit_room","seq_id":4}
+2014-09-24 18:39:03 | frontend.info | INFO  |93 | QuitRoomAction | 0 | request={"act":"quit_room","seq_id":4}&response={"seq_id":4,"code":0,"act":"quit_room_response"}
+2014-09-24 18:39:03 | frontend.info | INFO  |userId=131180&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:39:03 | frontend.info | INFO  |242 | AtomicAction | 901 | request={"uid":80091,"sid":"d2642f278fe14c8b","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:39:03 | frontend.info | INFO  |act=close_websocket&userId=131180&roomId=0&enterRoomTimes=1411555143864
+2014-09-24 18:39:03 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:39:06 | frontend.info | INFO  |0 | SendMessageAction | 402 | request={"to_uid":"","content":"3","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":2}&response={"code":402,"act":"send_msg_response"}
+2014-09-24 18:39:13 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":3}&response={"seq_id":3,"code":402,"act":"quit_room_response"}
+2014-09-24 18:39:13 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:39:13 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:39:13 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:39:13 | frontend.info | INFO  |act=atom&uid=131180&post_data={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}
+2014-09-24 18:39:13 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-09-24 18:39:13 | frontend.info | INFO  |345 | AtomicAction | 0 | request={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":0,"act":"atom_response"}
+2014-09-24 18:39:13 | frontend.info | INFO  |act=enter_room&uid=131180&rid=10050729&post_data={"rid":10050729,"act":"enter_room","seq_id":2}
+2014-09-24 18:39:13 | frontend.info | INFO  |114 | EnterRoomAction | 0 | request={"rid":10050729,"act":"enter_room","seq_id":2}&response={"seq_id":2,"code":0,"act":"enter_room_response"}
+2014-09-24 18:39:13 | frontend.info | INFO  |act=pull_room_msg&uid=131180&rid=10050729&post_data={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}
+2014-09-24 18:39:13 | frontend.info | INFO  |187 | PullMessageAction | 0 | request={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}&response={"data":{"msg_count":0,"msg_list":[],"enter_user_count":1},"seq_id":3,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:39:14 | frontend.info | INFO  |act=send_room_msg&uid=131180&rId=10050729&post_data={"to_uid":"","content":"3","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":4}
+2014-09-24 18:39:14 | frontend.info | INFO  |15 | SendMessageAction | 0 | request={"to_uid":"","content":"3","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":4}&response={"data":{"msg_id":10},"seq_id":4,"code":0,"act":"send_msg_response"}
+2014-09-24 18:39:15 | frontend.info | INFO  |act=pull_room_msg&uid=131180&rid=10050729&post_data={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":50,"act":"pull_msg","seq_id":5}
+2014-09-24 18:39:15 | frontend.info | INFO  |139 | PullMessageAction | 0 | request={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":50,"act":"pull_msg","seq_id":5}&response={"data":{"msg_count":1,"msg_list":[{"content":"3","duration":0,"status":1,"msg_type":1,"msg_id":10,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411555154913}],"enter_user_count":1},"seq_id":5,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:39:21 | frontend.info | INFO  |act=quit_room&uid=131180&rid=10050729&post_data={"act":"quit_room","seq_id":6}
+2014-09-24 18:39:21 | frontend.info | INFO  |4 | QuitRoomAction | 0 | request={"act":"quit_room","seq_id":6}&response={"seq_id":6,"code":0,"act":"quit_room_response"}
+2014-09-24 18:39:21 | frontend.info | INFO  |userId=131180&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:39:21 | frontend.info | INFO  |act=close_websocket&userId=131180&roomId=0&enterRoomTimes=1411555161231
+2014-09-24 18:39:21 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:39:21 | frontend.info | INFO  |act=atom&uid=178262&post_data={"uid":178262,"sid":"ff7b98b75b42f7f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}
+2014-09-24 18:39:21 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-09-24 18:39:21 | frontend.info | INFO  |163 | AtomicAction | 0 | request={"uid":178262,"sid":"ff7b98b75b42f7f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":0,"act":"atom_response"}
+2014-09-24 18:39:21 | frontend.info | INFO  |act=enter_room&uid=178262&rid=10050729&post_data={"rid":10050729,"act":"enter_room","seq_id":2}
+2014-09-24 18:39:21 | frontend.info | INFO  |3 | EnterRoomAction | 0 | request={"rid":10050729,"act":"enter_room","seq_id":2}&response={"seq_id":2,"code":0,"act":"enter_room_response"}
+2014-09-24 18:39:21 | frontend.info | INFO  |act=pull_room_msg&uid=178262&rid=10050729&post_data={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}
+2014-09-24 18:39:21 | frontend.info | INFO  |18 | PullMessageAction | 0 | request={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}&response={"data":{"msg_count":1,"msg_list":[{"content":"3","duration":0,"status":1,"msg_type":1,"msg_id":10,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411555154913}],"enter_user_count":1},"seq_id":3,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:39:22 | frontend.info | INFO  |act=send_room_msg&uid=178262&rId=10050729&post_data={"to_uid":"","content":"22","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":4}
+2014-09-24 18:39:22 | frontend.info | INFO  |76 | SendMessageAction | 0 | request={"to_uid":"","content":"22","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":4}&response={"data":{"msg_id":11},"seq_id":4,"code":0,"act":"send_msg_response"}
+2014-09-24 18:39:23 | frontend.info | INFO  |act=pull_room_msg&uid=178262&rid=10050729&post_data={"target_id":10050729,"chat_type":1,"msg_id_min":10,"page_size":50,"act":"pull_msg","seq_id":5}
+2014-09-24 18:39:23 | frontend.info | INFO  |287 | PullMessageAction | 0 | request={"target_id":10050729,"chat_type":1,"msg_id_min":10,"page_size":50,"act":"pull_msg","seq_id":5}&response={"data":{"msg_count":1,"msg_list":[{"content":"22","duration":0,"status":1,"msg_type":1,"msg_id":11,"user":{"nick_name":"鸡油腻","id":178262,"type":1,"avatar":"http://pic0.mofang.com/275/967/ac13eaf3a9f584ff50a74b9dbf1d66563a05f9a5_80.png"},"time_stamp":1411555162901}],"enter_user_count":1},"seq_id":5,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:44:05 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:44:16 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:44:54 | frontend.info | INFO  |531 | AtomicAction | 901 | request={"uid":80009,"sid":"61c99c5fa99da08a","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:44:56 | frontend.info | INFO  |0 | SendMessageAction | 402 | request={"to_uid":"","content":"2323","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":2}&response={"code":402,"act":"send_msg_response"}
+2014-09-24 18:45:04 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":3}&response={"seq_id":3,"code":402,"act":"quit_room_response"}
+2014-09-24 18:45:04 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:45:04 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:45:04 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:45:07 | frontend.info | INFO  |947 | AtomicAction | 901 | request={"uid":80103,"sid":"9407b8043db5937c","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:45:09 | frontend.info | INFO  |0 | SendMessageAction | 402 | request={"to_uid":"","content":".。。","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":2}&response={"code":402,"act":"send_msg_response"}
+2014-09-24 18:45:11 | frontend.info | INFO  |7614 | AtomicAction | 901 | request={"uid":80103,"sid":"9407b8043db5937c","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:45:11 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:45:11 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:45:11 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:45:11 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:45:58 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":3}&response={"seq_id":3,"code":402,"act":"quit_room_response"}
+2014-09-24 18:45:58 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:45:58 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:45:58 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:45:58 | frontend.info | INFO  |96 | AtomicAction | 901 | request={"uid":80103,"sid":"9407b8043db5937c","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:46:00 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:46:00 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:46:00 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:46:00 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:46:01 | frontend.info | INFO  |act=atom&uid=131180&post_data={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}
+2014-09-24 18:46:01 | frontend.info | INFO  |channel_uid_map size:2    uid_channel_map size:2
+2014-09-24 18:46:01 | frontend.info | INFO  |440 | AtomicAction | 0 | request={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":0,"act":"atom_response"}
+2014-09-24 18:46:01 | frontend.info | INFO  |act=enter_room&uid=131180&rid=10050729&post_data={"rid":10050729,"act":"enter_room","seq_id":2}
+2014-09-24 18:46:01 | frontend.info | INFO  |43 | EnterRoomAction | 0 | request={"rid":10050729,"act":"enter_room","seq_id":2}&response={"seq_id":2,"code":0,"act":"enter_room_response"}
+2014-09-24 18:46:01 | frontend.info | INFO  |act=pull_room_msg&uid=131180&rid=10050729&post_data={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}
+2014-09-24 18:46:01 | frontend.info | INFO  |643 | PullMessageAction | 0 | request={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}&response={"data":{"msg_count":2,"msg_list":[{"content":"3","duration":0,"status":1,"msg_type":1,"msg_id":10,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411555154913},{"content":"22","duration":0,"status":1,"msg_type":1,"msg_id":11,"user":{"nick_name":"鸡油腻","id":178262,"type":1,"avatar":"http://pic1.mofang.com/275/967/ac13eaf3a9f584ff50a74b9dbf1d66563a05f9a5_80.png"},"time_stamp":1411555162901}],"enter_user_count":2},"seq_id":3,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:46:04 | frontend.info | INFO  |act=send_room_msg&uid=131180&rId=10050729&post_data={"to_uid":"","content":"2","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":4}
+2014-09-24 18:46:04 | frontend.info | INFO  |129 | SendMessageAction | 0 | request={"to_uid":"","content":"2","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":4}&response={"data":{"msg_id":12},"seq_id":4,"code":0,"act":"send_msg_response"}
+2014-09-24 18:46:05 | frontend.info | INFO  |act=push_room_notify&rid=10050729&to_uid=178262&notify={"uid":178262,"rid":10050729,"from_uid":131180,"push_data_type":1,"act":"push"}
+2014-09-24 18:46:05 | frontend.info | INFO  |1 | PushNotifyAction | 0 | request={"uid":178262,"rid":10050729,"from_uid":131180,"push_data_type":1,"act":"push"}&response={"code":0,"act":"push_response"}
+2014-09-24 18:46:05 | frontend.info | INFO  |act=pull_room_msg&uid=178262&rid=10050729&post_data={"target_id":10050729,"chat_type":1,"msg_id_min":11,"page_size":10,"act":"pull_msg","seq_id":6}
+2014-09-24 18:46:05 | frontend.info | INFO  |289 | PullMessageAction | 0 | request={"target_id":10050729,"chat_type":1,"msg_id_min":11,"page_size":10,"act":"pull_msg","seq_id":6}&response={"data":{"msg_count":1,"msg_list":[{"content":"2","duration":0,"status":1,"msg_type":1,"msg_id":12,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411555564821}],"enter_user_count":2},"seq_id":6,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:46:05 | frontend.info | INFO  |act=pull_room_msg&uid=131180&rid=10050729&post_data={"target_id":10050729,"chat_type":1,"msg_id_min":11,"page_size":50,"act":"pull_msg","seq_id":5}
+2014-09-24 18:46:05 | frontend.info | INFO  |488 | PullMessageAction | 0 | request={"target_id":10050729,"chat_type":1,"msg_id_min":11,"page_size":50,"act":"pull_msg","seq_id":5}&response={"data":{"msg_count":1,"msg_list":[{"content":"2","duration":0,"status":1,"msg_type":1,"msg_id":12,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411555564821}],"enter_user_count":2},"seq_id":5,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:46:40 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:48:08 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:48:09 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:48:10 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:48:11 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:49:01 | frontend.info | INFO  |act=quit_room&uid=131180&rid=10050729&post_data={"act":"quit_room","seq_id":6}
+2014-09-24 18:49:01 | frontend.info | INFO  |5 | QuitRoomAction | 0 | request={"act":"quit_room","seq_id":6}&response={"seq_id":6,"code":0,"act":"quit_room_response"}
+2014-09-24 18:49:01 | frontend.info | INFO  |userId=131180&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:49:01 | frontend.info | INFO  |act=close_websocket&userId=131180&roomId=0&enterRoomTimes=1411555741273
+2014-09-24 18:49:01 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:49:01 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:49:01 | frontend.info | INFO  |act=atom&uid=178262&post_data={"uid":178262,"sid":"ff7b98b75b42f7f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}
+2014-09-24 18:49:01 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-09-24 18:49:01 | frontend.info | INFO  |12 | AtomicAction | 0 | request={"uid":178262,"sid":"ff7b98b75b42f7f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":0,"act":"atom_response"}
+2014-09-24 18:49:01 | frontend.info | INFO  |act=enter_room&uid=178262&rid=10050729&post_data={"rid":10050729,"act":"enter_room","seq_id":2}
+2014-09-24 18:49:01 | frontend.info | INFO  |4 | EnterRoomAction | 0 | request={"rid":10050729,"act":"enter_room","seq_id":2}&response={"seq_id":2,"code":0,"act":"enter_room_response"}
+2014-09-24 18:49:01 | frontend.info | INFO  |act=pull_room_msg&uid=178262&rid=10050729&post_data={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}
+2014-09-24 18:49:01 | frontend.info | INFO  |33 | PullMessageAction | 0 | request={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}&response={"data":{"msg_count":3,"msg_list":[{"content":"3","duration":0,"status":1,"msg_type":1,"msg_id":10,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411555154913},{"content":"22","duration":0,"status":1,"msg_type":1,"msg_id":11,"user":{"nick_name":"鸡油腻","id":178262,"type":1,"avatar":"http://pic1.mofang.com/275/967/ac13eaf3a9f584ff50a74b9dbf1d66563a05f9a5_80.png"},"time_stamp":1411555162901},{"content":"2","duration":0,"status":1,"msg_type":1,"msg_id":12,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411555564821}],"enter_user_count":1},"seq_id":3,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:53:14 | frontend.info | INFO  |act=atom&uid=131180&post_data={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}
+2014-09-24 18:53:14 | frontend.info | INFO  |channel_uid_map size:2    uid_channel_map size:2
+2014-09-24 18:53:14 | frontend.info | INFO  |203 | AtomicAction | 0 | request={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":0,"act":"atom_response"}
+2014-09-24 18:53:14 | frontend.info | INFO  |act=enter_room&uid=131180&rid=10050729&post_data={"rid":10050729,"act":"enter_room","seq_id":2}
+2014-09-24 18:53:14 | frontend.info | INFO  |14 | EnterRoomAction | 0 | request={"rid":10050729,"act":"enter_room","seq_id":2}&response={"seq_id":2,"code":0,"act":"enter_room_response"}
+2014-09-24 18:53:14 | frontend.info | INFO  |act=atom&uid=131180&post_data={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}
+2014-09-24 18:53:14 | frontend.info | INFO  |channel_uid_map size:2    uid_channel_map size:2
+2014-09-24 18:53:14 | frontend.info | INFO  |387 | AtomicAction | 0 | request={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":0,"act":"atom_response"}
+2014-09-24 18:53:14 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:53:14 | frontend.info | INFO  |act=pull_room_msg&uid=131180&rid=10050729&post_data={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}
+2014-09-24 18:53:14 | frontend.info | INFO  |239 | PullMessageAction | 0 | request={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}&response={"data":{"msg_count":3,"msg_list":[{"content":"3","duration":0,"status":1,"msg_type":1,"msg_id":10,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411555154913},{"content":"22","duration":0,"status":1,"msg_type":1,"msg_id":11,"user":{"nick_name":"鸡油腻","id":178262,"type":1,"avatar":"http://pic0.mofang.com/275/967/ac13eaf3a9f584ff50a74b9dbf1d66563a05f9a5_80.png"},"time_stamp":1411555162901},{"content":"2","duration":0,"status":1,"msg_type":1,"msg_id":12,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411555564821}],"enter_user_count":2},"seq_id":3,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:53:32 | frontend.info | INFO  |act=quit_room&uid=178262&rid=10050729&post_data={"act":"quit_room","seq_id":4}
+2014-09-24 18:53:32 | frontend.info | INFO  |22 | QuitRoomAction | 0 | request={"act":"quit_room","seq_id":4}&response={"seq_id":4,"code":0,"act":"quit_room_response"}
+2014-09-24 18:53:32 | frontend.info | INFO  |userId=178262&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:53:32 | frontend.info | INFO  |act=close_websocket&userId=178262&roomId=0&enterRoomTimes=1411556012611
+2014-09-24 18:53:32 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:53:32 | frontend.info | INFO  |123 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:53:35 | frontend.info | INFO  |act=quit_room&uid=131180&rid=10050729&post_data={"act":"quit_room","seq_id":4}
+2014-09-24 18:53:35 | frontend.info | INFO  |16 | QuitRoomAction | 0 | request={"act":"quit_room","seq_id":4}&response={"seq_id":4,"code":0,"act":"quit_room_response"}
+2014-09-24 18:53:35 | frontend.info | INFO  |userId=131180&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:53:35 | frontend.info | INFO  |act=close_websocket&userId=131180&roomId=0&enterRoomTimes=1411556015046
+2014-09-24 18:53:35 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:53:35 | frontend.info | INFO  |120 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:53:46 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:53:46 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:53:46 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:53:46 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:53:46 | frontend.info | INFO  |239 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:53:50 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:53:50 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:53:50 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:53:50 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:53:50 | frontend.info | INFO  |263 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:53:50 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:53:50 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:53:50 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:53:50 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:53:50 | frontend.info | INFO  |act=atom&uid=178262&post_data={"uid":178262,"sid":"ff7b98b75b42f7f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}
+2014-09-24 18:53:50 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-09-24 18:53:50 | frontend.info | INFO  |41 | AtomicAction | 0 | request={"uid":178262,"sid":"ff7b98b75b42f7f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":0,"act":"atom_response"}
+2014-09-24 18:53:50 | frontend.info | INFO  |act=enter_room&uid=178262&rid=10050729&post_data={"rid":10050729,"act":"enter_room","seq_id":2}
+2014-09-24 18:53:50 | frontend.info | INFO  |3 | EnterRoomAction | 0 | request={"rid":10050729,"act":"enter_room","seq_id":2}&response={"seq_id":2,"code":0,"act":"enter_room_response"}
+2014-09-24 18:53:50 | frontend.info | INFO  |act=pull_room_msg&uid=178262&rid=10050729&post_data={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}
+2014-09-24 18:53:50 | frontend.info | INFO  |44 | PullMessageAction | 0 | request={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}&response={"data":{"msg_count":3,"msg_list":[{"content":"3","duration":0,"status":1,"msg_type":1,"msg_id":10,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411555154913},{"content":"22","duration":0,"status":1,"msg_type":1,"msg_id":11,"user":{"nick_name":"鸡油腻","id":178262,"type":1,"avatar":"http://pic0.mofang.com/275/967/ac13eaf3a9f584ff50a74b9dbf1d66563a05f9a5_80.png"},"time_stamp":1411555162901},{"content":"2","duration":0,"status":1,"msg_type":1,"msg_id":12,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411555564821}],"enter_user_count":1},"seq_id":3,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:53:52 | frontend.info | INFO  |act=quit_room&uid=178262&rid=10050729&post_data={"act":"quit_room","seq_id":4}
+2014-09-24 18:53:52 | frontend.info | INFO  |29 | QuitRoomAction | 0 | request={"act":"quit_room","seq_id":4}&response={"seq_id":4,"code":0,"act":"quit_room_response"}
+2014-09-24 18:53:52 | frontend.info | INFO  |userId=178262&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:53:52 | frontend.info | INFO  |act=close_websocket&userId=178262&roomId=0&enterRoomTimes=1411556032379
+2014-09-24 18:53:52 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:53:52 | frontend.info | INFO  |92 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:54:18 | frontend.info | INFO  |0 | SendMessageAction | 402 | request={"to_uid":"","content":"222","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":2}&response={"code":402,"act":"send_msg_response"}
+2014-09-24 18:54:19 | frontend.info | INFO  |0 | SendMessageAction | 402 | request={"to_uid":"","content":"222","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":3}&response={"code":402,"act":"send_msg_response"}
+2014-09-24 18:54:32 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:54:32 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:54:32 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:54:42 | frontend.info | INFO  |103 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:54:45 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:54:45 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:54:45 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:54:46 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:54:46 | frontend.info | INFO  |194 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:54:46 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:54:46 | frontend.info | INFO  |106 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:54:46 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:54:46 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:54:46 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:54:47 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:54:47 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:54:47 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:54:47 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:54:47 | frontend.info | INFO  |175 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:54:47 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:54:47 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:54:47 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:54:47 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:54:47 | frontend.info | INFO  |act=atom&uid=178262&post_data={"uid":178262,"sid":"ff7b98b75b42f7f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}
+2014-09-24 18:54:47 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-09-24 18:54:47 | frontend.info | INFO  |94 | AtomicAction | 0 | request={"uid":178262,"sid":"ff7b98b75b42f7f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":0,"act":"atom_response"}
+2014-09-24 18:54:47 | frontend.info | INFO  |act=enter_room&uid=178262&rid=10050729&post_data={"rid":10050729,"act":"enter_room","seq_id":2}
+2014-09-24 18:54:47 | frontend.info | INFO  |76 | EnterRoomAction | 0 | request={"rid":10050729,"act":"enter_room","seq_id":2}&response={"seq_id":2,"code":0,"act":"enter_room_response"}
+2014-09-24 18:54:48 | frontend.info | INFO  |act=pull_room_msg&uid=178262&rid=10050729&post_data={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}
+2014-09-24 18:54:48 | frontend.info | INFO  |348 | PullMessageAction | 0 | request={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}&response={"data":{"msg_count":3,"msg_list":[{"content":"3","duration":0,"status":1,"msg_type":1,"msg_id":10,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411555154913},{"content":"22","duration":0,"status":1,"msg_type":1,"msg_id":11,"user":{"nick_name":"鸡油腻","id":178262,"type":1,"avatar":"http://pic0.mofang.com/275/967/ac13eaf3a9f584ff50a74b9dbf1d66563a05f9a5_80.png"},"time_stamp":1411555162901},{"content":"2","duration":0,"status":1,"msg_type":1,"msg_id":12,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411555564821}],"enter_user_count":1},"seq_id":3,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:54:48 | frontend.info | INFO  |act=quit_room&uid=178262&rid=10050729&post_data={"act":"quit_room","seq_id":4}
+2014-09-24 18:54:48 | frontend.info | INFO  |59 | QuitRoomAction | 0 | request={"act":"quit_room","seq_id":4}&response={"seq_id":4,"code":0,"act":"quit_room_response"}
+2014-09-24 18:54:48 | frontend.info | INFO  |userId=178262&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:54:48 | frontend.info | INFO  |44 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:54:48 | frontend.info | INFO  |act=close_websocket&userId=178262&roomId=0&enterRoomTimes=1411556088456
+2014-09-24 18:54:48 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:54:51 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:54:51 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:54:51 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:54:51 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:54:51 | frontend.info | INFO  |125 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:54:52 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:54:52 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:54:52 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:54:52 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:54:52 | frontend.info | INFO  |49 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":2}&response={"seq_id":2,"code":901,"act":"atom_response"}
+2014-09-24 18:54:53 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":3}&response={"seq_id":3,"code":402,"act":"quit_room_response"}
+2014-09-24 18:54:53 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:54:53 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:54:53 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:54:53 | frontend.info | INFO  |152 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:54:55 | frontend.info | INFO  |0 | SendMessageAction | 402 | request={"to_uid":"","content":"2","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":2}&response={"code":402,"act":"send_msg_response"}
+2014-09-24 18:55:00 | frontend.info | INFO  |0 | SendMessageAction | 402 | request={"to_uid":"","content":"333","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":2}&response={"code":402,"act":"send_msg_response"}
+2014-09-24 18:55:18 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":3}&response={"seq_id":3,"code":402,"act":"quit_room_response"}
+2014-09-24 18:55:18 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:55:18 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:55:18 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:55:18 | frontend.info | INFO  |144 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:55:20 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:55:20 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:55:20 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:55:20 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:55:20 | frontend.info | INFO  |act=atom&uid=131180&post_data={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}
+2014-09-24 18:55:20 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-09-24 18:55:20 | frontend.info | INFO  |59 | AtomicAction | 0 | request={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":0,"act":"atom_response"}
+2014-09-24 18:55:21 | frontend.info | INFO  |act=enter_room&uid=131180&rid=10050728&post_data={"rid":10050728,"act":"enter_room","seq_id":2}
+2014-09-24 18:55:21 | frontend.info | INFO  |32 | EnterRoomAction | 0 | request={"rid":10050728,"act":"enter_room","seq_id":2}&response={"seq_id":2,"code":0,"act":"enter_room_response"}
+2014-09-24 18:55:21 | frontend.info | INFO  |act=pull_room_msg&uid=131180&rid=10050728&post_data={"target_id":10050728,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}
+2014-09-24 18:55:21 | frontend.info | INFO  |97 | PullMessageAction | 0 | request={"target_id":10050728,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}&response={"data":{"msg_count":0,"msg_list":[],"enter_user_count":1},"seq_id":3,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:55:24 | frontend.info | INFO  |act=quit_room&uid=131180&rid=10050728&post_data={"act":"quit_room","seq_id":4}
+2014-09-24 18:55:24 | frontend.info | INFO  |59 | QuitRoomAction | 0 | request={"act":"quit_room","seq_id":4}&response={"seq_id":4,"code":0,"act":"quit_room_response"}
+2014-09-24 18:55:24 | frontend.info | INFO  |userId=131180&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:55:24 | frontend.info | INFO  |107 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:55:24 | frontend.info | INFO  |act=close_websocket&userId=131180&roomId=0&enterRoomTimes=1411556124326
+2014-09-24 18:55:24 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:55:33 | frontend.info | INFO  |0 | SendMessageAction | 402 | request={"to_uid":"","content":"333","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":3}&response={"code":402,"act":"send_msg_response"}
+2014-09-24 18:55:34 | frontend.info | INFO  |0 | SendMessageAction | 402 | request={"to_uid":"","content":"333","msg_type":1,"chat_type":1,"act":"send_msg","seq_id":4}&response={"code":402,"act":"send_msg_response"}
+2014-09-24 18:56:13 | frontend.info | INFO  |act=pull_room_msg&uid=0&rid=10050729&post_data={"target_id":10050729,"chat_type":1,"msg_id_max":0,"page_size":15,"act":"pull_msg","seq_id":5}
+2014-09-24 18:56:13 | frontend.info | INFO  |82 | PullMessageAction | 0 | request={"target_id":10050729,"chat_type":1,"msg_id_max":0,"page_size":15,"act":"pull_msg","seq_id":5}&response={"data":{"msg_count":0,"msg_list":[],"enter_user_count":0},"seq_id":5,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:56:21 | frontend.info | INFO  |act=pull_room_msg&uid=0&rid=10050728&post_data={"target_id":10050728,"chat_type":1,"msg_id_max":0,"page_size":15,"act":"pull_msg","seq_id":2}
+2014-09-24 18:56:21 | frontend.info | INFO  |10 | PullMessageAction | 0 | request={"target_id":10050728,"chat_type":1,"msg_id_max":0,"page_size":15,"act":"pull_msg","seq_id":2}&response={"data":{"msg_count":0,"msg_list":[],"enter_user_count":0},"seq_id":2,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:56:37 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":6}&response={"seq_id":6,"code":402,"act":"quit_room_response"}
+2014-09-24 18:56:37 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:56:37 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:56:37 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:56:38 | frontend.info | INFO  |570 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:56:40 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:56:40 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:56:40 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:56:40 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:56:40 | frontend.info | INFO  |act=atom&uid=178262&post_data={"uid":178262,"sid":"ff7b98b75b42f7f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}
+2014-09-24 18:56:40 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-09-24 18:56:40 | frontend.info | INFO  |7 | AtomicAction | 0 | request={"uid":178262,"sid":"ff7b98b75b42f7f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":0,"act":"atom_response"}
+2014-09-24 18:56:40 | frontend.info | INFO  |act=enter_room&uid=178262&rid=10050728&post_data={"rid":10050728,"act":"enter_room","seq_id":2}
+2014-09-24 18:56:40 | frontend.info | INFO  |3 | EnterRoomAction | 0 | request={"rid":10050728,"act":"enter_room","seq_id":2}&response={"seq_id":2,"code":0,"act":"enter_room_response"}
+2014-09-24 18:56:40 | frontend.info | INFO  |act=pull_room_msg&uid=178262&rid=10050728&post_data={"target_id":10050728,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}
+2014-09-24 18:56:40 | frontend.info | INFO  |11 | PullMessageAction | 0 | request={"target_id":10050728,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}&response={"data":{"msg_count":0,"msg_list":[],"enter_user_count":1},"seq_id":3,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:56:41 | frontend.info | INFO  |act=quit_room&uid=178262&rid=10050728&post_data={"act":"quit_room","seq_id":4}
+2014-09-24 18:56:41 | frontend.info | INFO  |35 | QuitRoomAction | 0 | request={"act":"quit_room","seq_id":4}&response={"seq_id":4,"code":0,"act":"quit_room_response"}
+2014-09-24 18:56:41 | frontend.info | INFO  |userId=178262&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:56:41 | frontend.info | INFO  |act=atom&uid=131180&post_data={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}
+2014-09-24 18:56:41 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-09-24 18:56:41 | frontend.info | INFO  |90 | AtomicAction | 0 | request={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":0,"act":"atom_response"}
+2014-09-24 18:56:41 | frontend.info | INFO  |act=enter_room&uid=131180&rid=10050728&post_data={"rid":10050728,"act":"enter_room","seq_id":2}
+2014-09-24 18:56:41 | frontend.info | INFO  |35 | EnterRoomAction | 0 | request={"rid":10050728,"act":"enter_room","seq_id":2}&response={"seq_id":2,"code":0,"act":"enter_room_response"}
+2014-09-24 18:56:41 | frontend.info | INFO  |act=close_websocket&userId=178262&roomId=0&enterRoomTimes=1411556201477
+2014-09-24 18:56:41 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:56:41 | frontend.info | INFO  |act=pull_room_msg&uid=131180&rid=10050728&post_data={"target_id":10050728,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}
+2014-09-24 18:56:41 | frontend.info | INFO  |305 | PullMessageAction | 0 | request={"target_id":10050728,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}&response={"data":{"msg_count":0,"msg_list":[],"enter_user_count":1},"seq_id":3,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:56:42 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":3}&response={"seq_id":3,"code":402,"act":"quit_room_response"}
+2014-09-24 18:56:42 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:56:42 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:56:42 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:56:42 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:56:43 | frontend.info | INFO  |act=atom&uid=131180&post_data={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}
+2014-09-24 18:56:43 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-09-24 18:56:43 | frontend.info | INFO  |52 | AtomicAction | 0 | request={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":0,"act":"atom_response"}
+2014-09-24 18:56:43 | frontend.info | INFO  |act=enter_room&uid=131180&rid=10050728&post_data={"rid":10050728,"act":"enter_room","seq_id":2}
+2014-09-24 18:56:43 | frontend.info | INFO  |75 | EnterRoomAction | 0 | request={"rid":10050728,"act":"enter_room","seq_id":2}&response={"seq_id":2,"code":0,"act":"enter_room_response"}
+2014-09-24 18:56:43 | frontend.info | INFO  |act=pull_room_msg&uid=131180&rid=10050728&post_data={"target_id":10050728,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}
+2014-09-24 18:56:43 | frontend.info | INFO  |110 | PullMessageAction | 0 | request={"target_id":10050728,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}&response={"data":{"msg_count":0,"msg_list":[],"enter_user_count":1},"seq_id":3,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:56:51 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:56:51 | frontend.info | INFO  |act=atom&uid=131180&post_data={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":4}
+2014-09-24 18:56:51 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-09-24 18:56:51 | frontend.info | INFO  |9 | AtomicAction | 0 | request={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":4}&response={"seq_id":4,"code":0,"act":"atom_response"}
+2014-09-24 18:56:51 | frontend.info | INFO  |act=enter_room&uid=131180&rid=10050728&post_data={"rid":10050728,"act":"enter_room","seq_id":5}
+2014-09-24 18:56:51 | frontend.info | INFO  |3 | EnterRoomAction | 0 | request={"rid":10050728,"act":"enter_room","seq_id":5}&response={"seq_id":5,"code":0,"act":"enter_room_response"}
+2014-09-24 18:56:51 | frontend.info | INFO  |act=pull_room_msg&uid=131180&rid=10050728&post_data={"target_id":10050728,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":6}
+2014-09-24 18:56:51 | frontend.info | INFO  |11 | PullMessageAction | 0 | request={"target_id":10050728,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":6}&response={"data":{"msg_count":0,"msg_list":[],"enter_user_count":1},"seq_id":6,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:56:56 | frontend.info | INFO  |act=atom&uid=178262&post_data={"uid":178262,"sid":"ff7b98b75b42f7f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}
+2014-09-24 18:56:56 | frontend.info | INFO  |channel_uid_map size:2    uid_channel_map size:2
+2014-09-24 18:56:56 | frontend.info | INFO  |12 | AtomicAction | 0 | request={"uid":178262,"sid":"ff7b98b75b42f7f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":0,"act":"atom_response"}
+2014-09-24 18:56:56 | frontend.info | INFO  |act=enter_room&uid=178262&rid=10050728&post_data={"rid":10050728,"act":"enter_room","seq_id":2}
+2014-09-24 18:56:56 | frontend.info | INFO  |3 | EnterRoomAction | 0 | request={"rid":10050728,"act":"enter_room","seq_id":2}&response={"seq_id":2,"code":0,"act":"enter_room_response"}
+2014-09-24 18:56:56 | frontend.info | INFO  |act=pull_room_msg&uid=178262&rid=10050728&post_data={"target_id":10050728,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}
+2014-09-24 18:56:56 | frontend.info | INFO  |14 | PullMessageAction | 0 | request={"target_id":10050728,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}&response={"data":{"msg_count":0,"msg_list":[],"enter_user_count":2},"seq_id":3,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:56:58 | frontend.info | INFO  |act=quit_room&uid=131180&rid=10050728&post_data={"act":"quit_room","seq_id":7}
+2014-09-24 18:56:58 | frontend.info | INFO  |47 | QuitRoomAction | 0 | request={"act":"quit_room","seq_id":7}&response={"seq_id":7,"code":0,"act":"quit_room_response"}
+2014-09-24 18:56:58 | frontend.info | INFO  |userId=131180&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:56:58 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:56:58 | frontend.info | INFO  |act=atom&uid=178262&post_data={"uid":178262,"sid":"ff7b98b75b42f7f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}
+2014-09-24 18:56:58 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-09-24 18:56:58 | frontend.info | INFO  |87 | AtomicAction | 0 | request={"uid":178262,"sid":"ff7b98b75b42f7f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":0,"act":"atom_response"}
+2014-09-24 18:56:58 | frontend.info | INFO  |act=enter_room&uid=178262&rid=10050728&post_data={"rid":10050728,"act":"enter_room","seq_id":2}
+2014-09-24 18:56:58 | frontend.info | INFO  |35 | EnterRoomAction | 0 | request={"rid":10050728,"act":"enter_room","seq_id":2}&response={"seq_id":2,"code":0,"act":"enter_room_response"}
+2014-09-24 18:56:58 | frontend.info | INFO  |act=close_websocket&userId=131180&roomId=0&enterRoomTimes=1411556218427
+2014-09-24 18:56:58 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:56:59 | frontend.info | INFO  |act=pull_room_msg&uid=178262&rid=10050728&post_data={"target_id":10050728,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}
+2014-09-24 18:56:59 | frontend.info | INFO  |707 | PullMessageAction | 0 | request={"target_id":10050728,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}&response={"data":{"msg_count":0,"msg_list":[],"enter_user_count":1},"seq_id":3,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:57:00 | frontend.info | INFO  |act=quit_room&uid=178262&rid=10050728&post_data={"act":"quit_room","seq_id":4}
+2014-09-24 18:57:00 | frontend.info | INFO  |38 | QuitRoomAction | 0 | request={"act":"quit_room","seq_id":4}&response={"seq_id":4,"code":0,"act":"quit_room_response"}
+2014-09-24 18:57:00 | frontend.info | INFO  |userId=178262&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:57:01 | frontend.info | INFO  |act=close_websocket&userId=178262&roomId=0&enterRoomTimes=1411556221047
+2014-09-24 18:57:01 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:57:01 | frontend.info | INFO  |470 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:57:03 | frontend.info | INFO  |114 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:57:06 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:57:06 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:57:06 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:57:06 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:57:06 | frontend.info | INFO  |141 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:57:11 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:57:11 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:57:11 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:57:11 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:57:11 | frontend.info | INFO  |100 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:57:13 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:57:13 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:57:13 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:57:13 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:57:13 | frontend.info | INFO  |191 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:57:19 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:57:19 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:57:19 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:57:19 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:57:19 | frontend.info | INFO  |117 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:57:19 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:57:19 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:57:19 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:57:19 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:57:20 | frontend.info | INFO  |156 | AtomicAction | 901 | request={"uid":1461402,"sid":"3882b3206b72c3f7","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:57:22 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:57:22 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:57:22 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:57:22 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:57:22 | frontend.info | INFO  |act=atom&uid=131180&post_data={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}
+2014-09-24 18:57:22 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-09-24 18:57:22 | frontend.info | INFO  |96 | AtomicAction | 0 | request={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":0,"act":"atom_response"}
+2014-09-24 18:57:22 | frontend.info | INFO  |act=enter_room&uid=131180&rid=10050729&post_data={"rid":10050729,"act":"enter_room","seq_id":2}
+2014-09-24 18:57:22 | frontend.info | INFO  |16 | EnterRoomAction | 0 | request={"rid":10050729,"act":"enter_room","seq_id":2}&response={"seq_id":2,"code":0,"act":"enter_room_response"}
+2014-09-24 18:57:23 | frontend.info | INFO  |act=pull_room_msg&uid=131180&rid=10050729&post_data={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}
+2014-09-24 18:57:23 | frontend.info | INFO  |284 | PullMessageAction | 0 | request={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}&response={"data":{"msg_count":3,"msg_list":[{"content":"3","duration":0,"status":1,"msg_type":1,"msg_id":10,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411555154913},{"content":"22","duration":0,"status":1,"msg_type":1,"msg_id":11,"user":{"nick_name":"鸡油腻","id":178262,"type":1,"avatar":"http://pic0.mofang.com/275/967/ac13eaf3a9f584ff50a74b9dbf1d66563a05f9a5_80.png"},"time_stamp":1411555162901},{"content":"2","duration":0,"status":1,"msg_type":1,"msg_id":12,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411555564821}],"enter_user_count":1},"seq_id":3,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:57:25 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:57:25 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:57:25 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:57:25 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:57:25 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:57:25 | frontend.info | INFO  |act=atom&uid=131180&post_data={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}
+2014-09-24 18:57:25 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-09-24 18:57:25 | frontend.info | INFO  |77 | AtomicAction | 0 | request={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":0,"act":"atom_response"}
+2014-09-24 18:57:26 | frontend.info | INFO  |act=enter_room&uid=131180&rid=10050729&post_data={"rid":10050729,"act":"enter_room","seq_id":2}
+2014-09-24 18:57:26 | frontend.info | INFO  |16 | EnterRoomAction | 0 | request={"rid":10050729,"act":"enter_room","seq_id":2}&response={"seq_id":2,"code":0,"act":"enter_room_response"}
+2014-09-24 18:57:26 | frontend.info | INFO  |act=pull_room_msg&uid=131180&rid=10050729&post_data={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}
+2014-09-24 18:57:26 | frontend.info | INFO  |821 | PullMessageAction | 0 | request={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}&response={"data":{"msg_count":3,"msg_list":[{"content":"3","duration":0,"status":1,"msg_type":1,"msg_id":10,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411555154913},{"content":"22","duration":0,"status":1,"msg_type":1,"msg_id":11,"user":{"nick_name":"鸡油腻","id":178262,"type":1,"avatar":"http://pic0.mofang.com/275/967/ac13eaf3a9f584ff50a74b9dbf1d66563a05f9a5_80.png"},"time_stamp":1411555162901},{"content":"2","duration":0,"status":1,"msg_type":1,"msg_id":12,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411555564821}],"enter_user_count":1},"seq_id":3,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:57:36 | frontend.info | INFO  |act=quit_room&uid=131180&rid=10050729&post_data={"act":"quit_room","seq_id":4}
+2014-09-24 18:57:36 | frontend.info | INFO  |3 | QuitRoomAction | 0 | request={"act":"quit_room","seq_id":4}&response={"seq_id":4,"code":0,"act":"quit_room_response"}
+2014-09-24 18:57:36 | frontend.info | INFO  |userId=131180&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:57:36 | frontend.info | INFO  |act=close_websocket&userId=131180&roomId=0&enterRoomTimes=1411556256632
+2014-09-24 18:57:36 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:57:36 | frontend.info | INFO  |32 | AtomicAction | 901 | request={"uid":80103,"sid":"9407b8043db5937c","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:57:39 | frontend.info | INFO  |98 | AtomicAction | 901 | request={"uid":80103,"sid":"9407b8043db5937c","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:58:01 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:58:01 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:58:01 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:58:01 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:58:01 | frontend.info | INFO  |122 | AtomicAction | 901 | request={"uid":80103,"sid":"9407b8043db5937c","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:58:07 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:58:07 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:58:07 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:58:07 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:58:07 | frontend.info | INFO  |128 | AtomicAction | 901 | request={"uid":80103,"sid":"9407b8043db5937c","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:58:07 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:58:07 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:58:07 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:58:07 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:58:07 | frontend.info | INFO  |133 | AtomicAction | 901 | request={"uid":80103,"sid":"9407b8043db5937c","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:58:08 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:58:08 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:58:08 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:58:08 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:58:08 | frontend.info | INFO  |102 | AtomicAction | 901 | request={"uid":80103,"sid":"9407b8043db5937c","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:58:09 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:58:09 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:58:09 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:58:09 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:58:09 | frontend.info | INFO  |174 | AtomicAction | 901 | request={"uid":80103,"sid":"9407b8043db5937c","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:58:15 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:58:15 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:58:15 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:58:15 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:58:16 | frontend.info | INFO  |act=atom&uid=131180&post_data={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}
+2014-09-24 18:58:16 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-09-24 18:58:16 | frontend.info | INFO  |55 | AtomicAction | 0 | request={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":0,"act":"atom_response"}
+2014-09-24 18:58:16 | frontend.info | INFO  |act=enter_room&uid=131180&rid=10050729&post_data={"rid":10050729,"act":"enter_room","seq_id":2}
+2014-09-24 18:58:16 | frontend.info | INFO  |3 | EnterRoomAction | 0 | request={"rid":10050729,"act":"enter_room","seq_id":2}&response={"seq_id":2,"code":0,"act":"enter_room_response"}
+2014-09-24 18:58:16 | frontend.info | INFO  |act=pull_room_msg&uid=131180&rid=10050729&post_data={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}
+2014-09-24 18:58:16 | frontend.info | INFO  |309 | PullMessageAction | 0 | request={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}&response={"data":{"msg_count":3,"msg_list":[{"content":"3","duration":0,"status":1,"msg_type":1,"msg_id":10,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411555154913},{"content":"22","duration":0,"status":1,"msg_type":1,"msg_id":11,"user":{"nick_name":"鸡油腻","id":178262,"type":1,"avatar":"http://pic2.mofang.com/275/967/ac13eaf3a9f584ff50a74b9dbf1d66563a05f9a5_80.png"},"time_stamp":1411555162901},{"content":"2","duration":0,"status":1,"msg_type":1,"msg_id":12,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411555564821}],"enter_user_count":1},"seq_id":3,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:58:19 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:58:19 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:58:19 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:58:19 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:58:19 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:58:19 | frontend.info | INFO  |act=atom&uid=131180&post_data={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}
+2014-09-24 18:58:19 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-09-24 18:58:19 | frontend.info | INFO  |72 | AtomicAction | 0 | request={"uid":131180,"sid":"fa5584e020106643","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":0,"act":"atom_response"}
+2014-09-24 18:58:19 | frontend.info | INFO  |act=enter_room&uid=131180&rid=10050729&post_data={"rid":10050729,"act":"enter_room","seq_id":2}
+2014-09-24 18:58:19 | frontend.info | INFO  |43 | EnterRoomAction | 0 | request={"rid":10050729,"act":"enter_room","seq_id":2}&response={"seq_id":2,"code":0,"act":"enter_room_response"}
+2014-09-24 18:58:20 | frontend.info | INFO  |act=pull_room_msg&uid=131180&rid=10050729&post_data={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}
+2014-09-24 18:58:20 | frontend.info | INFO  |394 | PullMessageAction | 0 | request={"target_id":10050729,"chat_type":1,"msg_id_min":0,"page_size":10,"act":"pull_msg","seq_id":3}&response={"data":{"msg_count":3,"msg_list":[{"content":"3","duration":0,"status":1,"msg_type":1,"msg_id":10,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411555154913},{"content":"22","duration":0,"status":1,"msg_type":1,"msg_id":11,"user":{"nick_name":"鸡油腻","id":178262,"type":1,"avatar":"http://pic2.mofang.com/275/967/ac13eaf3a9f584ff50a74b9dbf1d66563a05f9a5_80.png"},"time_stamp":1411555162901},{"content":"2","duration":0,"status":1,"msg_type":1,"msg_id":12,"user":{"nick_name":"小白","id":131180,"type":1,"avatar":"http://pic2.mofang.com/331/053/875f5f6bc0dbd1b9adac33e800d38300b74f6aa8_80.png"},"time_stamp":1411555564821}],"enter_user_count":1},"seq_id":3,"code":0,"act":"pull_msg_response"}
+2014-09-24 18:58:21 | frontend.info | INFO  |act=quit_room&uid=131180&rid=10050729&post_data={"act":"quit_room","seq_id":4}
+2014-09-24 18:58:21 | frontend.info | INFO  |17 | QuitRoomAction | 0 | request={"act":"quit_room","seq_id":4}&response={"seq_id":4,"code":0,"act":"quit_room_response"}
+2014-09-24 18:58:21 | frontend.info | INFO  |userId=131180&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:58:21 | frontend.info | INFO  |49 | AtomicAction | 901 | request={"uid":80100,"sid":"e7f22417a6b5f664","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:58:22 | frontend.info | INFO  |act=close_websocket&userId=131180&roomId=0&enterRoomTimes=1411556301972
+2014-09-24 18:58:22 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:58:23 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:58:23 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:58:23 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:58:23 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:58:23 | frontend.info | INFO  |306 | AtomicAction | 901 | request={"uid":80103,"sid":"9407b8043db5937c","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:58:27 | frontend.info | INFO  |96 | AtomicAction | 901 | request={"uid":80103,"sid":"9407b8043db5937c","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:58:35 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:58:35 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:58:35 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:58:35 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:58:35 | frontend.info | INFO  |82 | AtomicAction | 901 | request={"uid":80100,"sid":"e7f22417a6b5f664","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:58:36 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:58:36 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:58:36 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:58:36 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:58:37 | frontend.info | INFO  |59 | AtomicAction | 901 | request={"uid":80100,"sid":"e7f22417a6b5f664","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":2}&response={"seq_id":2,"code":901,"act":"atom_response"}
+2014-09-24 18:58:42 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:58:42 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:58:42 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:58:42 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:58:42 | frontend.info | INFO  |102 | AtomicAction | 901 | request={"uid":80088,"sid":"1b49e82a1c38846d","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:58:51 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":3}&response={"seq_id":3,"code":402,"act":"quit_room_response"}
+2014-09-24 18:58:51 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:58:51 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:58:51 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:58:51 | frontend.info | INFO  |90 | AtomicAction | 901 | request={"uid":80088,"sid":"1b49e82a1c38846d","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:58:53 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:58:53 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:58:53 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:58:53 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:58:54 | frontend.info | INFO  |80 | AtomicAction | 901 | request={"uid":80091,"sid":"d2642f278fe14c8b","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}
+2014-09-24 18:58:57 | frontend.info | INFO  |0 | QuitRoomAction | 402 | request={"act":"quit_room","seq_id":2}&response={"seq_id":2,"code":402,"act":"quit_room_response"}
+2014-09-24 18:58:57 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-24 18:58:57 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-24 18:58:57 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-24 18:58:58 | frontend.info | INFO  |105 | AtomicAction | 901 | request={"uid":80091,"sid":"d2642f278fe14c8b","cc":"","pf":"pc","cn":"","cv":"1.0.0","dt":"pc","imei":"","imsi":"","pn":"","act":"atom","seq_id":1}&response={"seq_id":1,"code":901,"act":"atom_response"}

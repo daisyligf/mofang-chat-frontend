@@ -1,0 +1,4 @@
+2014-09-25 15:33:06 | frontend.info | INFO  |userId=0&message=web server receive CloseWebsocket code from remote client.
+2014-09-25 15:33:06 | frontend.info | INFO  |act=close_websocket_by_none&userId=0
+2014-09-25 15:33:06 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-09-25 15:44:15 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.

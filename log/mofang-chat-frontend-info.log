@@ -1,0 +1,74 @@
+2014-11-02 20:23:21 | frontend.info | INFO  |act=atom&uid=608598&post_data={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}
+2014-11-02 20:23:21 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-11-02 20:23:41 | frontend.info | INFO  |20515 | AtomicAction | 0 | request={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}&response={"seq_id":123,"code":0,"act":"atom_response"}
+2014-11-02 20:25:20 | frontend.info | INFO  |userId=608598&message=remote client trigger READ_IDLE event.
+2014-11-02 20:26:34 | frontend.info | INFO  |act=close_websocket&userId=608598&roomId=0&enterRoomTimes=1414931151232
+2014-11-02 20:26:42 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-11-02 20:31:16 | frontend.info | INFO  |act=atom&uid=608598&post_data={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}
+2014-11-02 20:31:16 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-11-02 20:31:36 | frontend.info | INFO  |20270 | AtomicAction | 0 | request={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}&response={"seq_id":123,"code":0,"act":"atom_response"}
+2014-11-02 20:32:13 | frontend.info | INFO  |userId=608598&message=web server receive CloseWebsocket code from remote client.
+2014-11-02 20:33:14 | frontend.info | INFO  |act=close_websocket&userId=608598&roomId=0&enterRoomTimes=1414931594879
+2014-11-02 20:33:18 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-11-02 20:34:20 | frontend.info | INFO  |act=atom&uid=608598&post_data={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}
+2014-11-02 20:34:20 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-11-02 20:34:40 | frontend.info | INFO  |20004 | AtomicAction | 0 | request={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}&response={"seq_id":123,"code":0,"act":"atom_response"}
+2014-11-02 20:36:53 | frontend.info | INFO  |userId=608598&message=remote client trigger CHANNEL_INACTIVE event.
+2014-11-02 20:38:17 | frontend.info | INFO  |act=atom&uid=608598&post_data={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}
+2014-11-02 20:38:17 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-11-02 20:38:37 | frontend.info | INFO  |20298 | AtomicAction | 0 | request={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}&response={"seq_id":123,"code":0,"act":"atom_response"}
+2014-11-02 20:38:37 | frontend.info | INFO  |userId=608598&message=web server receive CloseWebsocket code from remote client.
+2014-11-02 20:38:37 | frontend.info | INFO  |act=close_websocket&userId=608598&roomId=0&enterRoomTimes=1414931917308
+2014-11-02 20:38:37 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-11-02 20:39:06 | frontend.info | INFO  |act=atom&uid=608598&post_data={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}
+2014-11-02 20:39:06 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-11-02 20:39:26 | frontend.info | INFO  |20033 | AtomicAction | 0 | request={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}&response={"seq_id":123,"code":0,"act":"atom_response"}
+2014-11-02 20:39:26 | frontend.info | INFO  |userId=608598&message=web server receive CloseWebsocket code from remote client.
+2014-11-02 20:39:56 | frontend.info | INFO  |act=close_websocket&userId=608598&roomId=0&enterRoomTimes=1414931996688
+2014-11-02 20:40:09 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-11-02 20:41:38 | frontend.info | INFO  |act=atom&uid=608598&post_data={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}
+2014-11-02 20:41:38 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-11-02 20:41:58 | frontend.info | INFO  |20039 | AtomicAction | 0 | request={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}&response={"seq_id":123,"code":0,"act":"atom_response"}
+2014-11-02 20:41:58 | frontend.info | INFO  |userId=608598&message=web server receive CloseWebsocket code from remote client.
+2014-11-02 20:42:04 | frontend.info | INFO  |act=close_websocket&userId=608598&roomId=0&enterRoomTimes=1414932124383
+2014-11-02 20:42:07 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-11-02 20:43:13 | frontend.info | INFO  |act=atom&uid=608598&post_data={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}
+2014-11-02 20:43:13 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-11-02 20:43:33 | frontend.info | INFO  |43297 | AtomicAction | 0 | request={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}&response={"seq_id":123,"code":0,"act":"atom_response"}
+2014-11-02 20:43:33 | frontend.info | INFO  |userId=608598&message=web server receive CloseWebsocket code from remote client.
+2014-11-02 20:43:53 | frontend.info | INFO  |act=close_websocket&userId=608598&roomId=0&enterRoomTimes=1414932233834
+2014-11-02 20:45:12 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-11-02 20:46:41 | frontend.info | INFO  |act=atom&uid=608598&post_data={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}
+2014-11-02 20:46:41 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-11-02 20:47:01 | frontend.info | INFO  |24704 | AtomicAction | 0 | request={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}&response={"seq_id":123,"code":0,"act":"atom_response"}
+2014-11-02 20:47:01 | frontend.info | INFO  |userId=608598&message=web server receive CloseWebsocket code from remote client.
+2014-11-02 20:48:10 | frontend.info | INFO  |act=close_websocket&userId=608598&roomId=0&enterRoomTimes=1414932490478
+2014-11-02 20:48:22 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-11-02 20:50:39 | frontend.info | INFO  |act=atom&uid=608598&post_data={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}
+2014-11-02 20:50:39 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-11-02 20:50:59 | frontend.info | INFO  |20041 | AtomicAction | 0 | request={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}&response={"seq_id":123,"code":0,"act":"atom_response"}
+2014-11-02 20:50:59 | frontend.info | INFO  |userId=608598&message=web server receive CloseWebsocket code from remote client.
+2014-11-02 20:51:08 | frontend.info | INFO  |userId=608598&message=remote client trigger CHANNEL_INACTIVE event.
+2014-11-02 20:51:13 | frontend.info | INFO  |act=close_websocket&userId=608598&roomId=0&enterRoomTimes=1414932673019
+2014-11-02 21:51:37 | frontend.info | INFO  |act=atom&uid=608598&post_data={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}
+2014-11-02 21:51:37 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-11-02 21:51:38 | frontend.info | INFO  |471 | AtomicAction | 0 | request={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}&response={"seq_id":123,"code":0,"act":"atom_response"}
+2014-11-02 21:52:17 | frontend.info | INFO  |act=atom&uid=608598&post_data={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}
+2014-11-02 21:52:17 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-11-02 21:53:04 | frontend.info | INFO  |act=atom&uid=608598&post_data={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}
+2014-11-02 21:53:04 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-11-02 21:53:49 | frontend.info | INFO  |act=atom&uid=608598&post_data={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}
+2014-11-02 21:53:49 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-11-02 21:58:42 | frontend.info | INFO  |293158 | AtomicAction | 0 | request={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}&response={"seq_id":123,"code":0,"act":"atom_response"}
+2014-11-02 21:58:53 | frontend.info | INFO  |userId=608598&message=remote client trigger READ_IDLE event.
+2014-11-02 21:59:30 | frontend.info | INFO  |userId=608598&message=remote client trigger CHANNEL_INACTIVE event.
+2014-11-02 21:59:49 | frontend.info | INFO  |act=close_websocket&userId=608598&roomId=0&enterRoomTimes=1414936787612
+2014-11-02 22:01:49 | frontend.info | INFO  |act=atom&uid=608598&post_data={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}
+2014-11-02 22:01:49 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-11-02 22:01:58 | frontend.info | INFO  |9320 | AtomicAction | 0 | request={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}&response={"seq_id":123,"code":0,"act":"atom_response"}
+2014-11-02 22:02:22 | frontend.info | INFO  |act=atom&uid=608598&post_data={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}
+2014-11-02 22:02:22 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-11-02 22:05:02 | frontend.info | INFO  |160667 | AtomicAction | 0 | request={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}&response={"seq_id":123,"code":0,"act":"atom_response"}
+2014-11-02 22:05:07 | frontend.info | INFO  |userId=608598&message=remote client trigger READ_IDLE event.
+2014-11-02 22:05:12 | frontend.info | INFO  |userId=608598&message=remote client trigger CHANNEL_INACTIVE event.
+2014-11-02 22:05:21 | frontend.info | INFO  |act=close_websocket&userId=608598&roomId=0&enterRoomTimes=1414937121812

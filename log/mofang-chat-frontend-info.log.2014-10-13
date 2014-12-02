@@ -1,0 +1,59 @@
+2014-10-13 15:05:50 | frontend.info | INFO  |act=atom&uid=608598&post_data={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}
+2014-10-13 15:05:50 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-10-13 15:05:50 | frontend.info | INFO  |429 | AtomicAction | 0 | request={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}&response={"seq_id":123,"code":0,"act":"atom_response"}
+2014-10-13 15:05:52 | frontend.info | INFO  |act=enter_room&uid=608598&rid=1&post_data={"act":"enter_room", "seq_id":456, "rid":1}
+2014-10-13 15:05:52 | frontend.info | INFO  |25 | EnterRoomAction | 0 | request={"act":"enter_room", "seq_id":456, "rid":1}&response={"seq_id":456,"code":0,"act":"enter_room_response"}
+2014-10-13 15:06:30 | frontend.info | INFO  |act=atom&uid=20674522&post_data={"act":"atom", "seq_id":123, "sid":"af5898c082204940", "uid":20674522}
+2014-10-13 15:06:30 | frontend.info | INFO  |channel_uid_map size:2    uid_channel_map size:2
+2014-10-13 15:06:30 | frontend.info | INFO  |457 | AtomicAction | 0 | request={"act":"atom", "seq_id":123, "sid":"af5898c082204940", "uid":20674522}&response={"seq_id":123,"code":0,"act":"atom_response"}
+2014-10-13 15:06:32 | frontend.info | INFO  |act=enter_room&uid=20674522&rid=1&post_data={"act":"enter_room", "seq_id":456, "rid":1}
+2014-10-13 15:06:32 | frontend.info | INFO  |212 | EnterRoomAction | 0 | request={"act":"enter_room", "seq_id":456, "rid":1}&response={"seq_id":456,"code":0,"act":"enter_room_response"}
+2014-10-13 15:15:58 | frontend.info | INFO  |act=push_room_notify&rid=1&to_uid=608598&notify={"uid":608598,"rid":1,"from_uid":1111,"push_data_type":1,"act":"push"}
+2014-10-13 15:15:58 | frontend.info | INFO  |2 | PushNotifyAction | 0 | request={"uid":608598,"rid":1,"from_uid":1111,"push_data_type":1,"act":"push"}&response={"code":0,"act":"push_response"}
+2014-10-13 15:15:58 | frontend.info | INFO  |act=push_room_notify&rid=1&to_uid=20674522&notify={"uid":20674522,"rid":1,"from_uid":1111,"push_data_type":1,"act":"push"}
+2014-10-13 15:15:58 | frontend.info | INFO  |1 | PushNotifyAction | 0 | request={"uid":20674522,"rid":1,"from_uid":1111,"push_data_type":1,"act":"push"}&response={"code":0,"act":"push_response"}
+2014-10-13 15:16:30 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-10-13 15:18:19 | frontend.info | INFO  |userId=608598&message=web server receive CloseWebsocket code from remote client.
+2014-10-13 15:18:20 | frontend.info | INFO  |act=close_websocket&userId=608598&roomId=1&enterRoomTimes=747791
+2014-10-13 15:18:20 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-10-13 15:18:22 | frontend.info | INFO  |act=atom&uid=608598&post_data={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}
+2014-10-13 15:18:22 | frontend.info | INFO  |channel_uid_map size:2    uid_channel_map size:2
+2014-10-13 15:18:22 | frontend.info | INFO  |742 | AtomicAction | 0 | request={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}&response={"seq_id":123,"code":0,"act":"atom_response"}
+2014-10-13 15:18:24 | frontend.info | INFO  |act=enter_room&uid=608598&rid=1&post_data={"act":"enter_room", "seq_id":456, "rid":1}
+2014-10-13 15:18:24 | frontend.info | INFO  |437 | EnterRoomAction | 0 | request={"act":"enter_room", "seq_id":456, "rid":1}&response={"seq_id":456,"code":0,"act":"enter_room_response"}
+2014-10-13 15:18:26 | frontend.info | INFO  |userId=20674522&message=web server receive CloseWebsocket code from remote client.
+2014-10-13 15:18:26 | frontend.info | INFO  |act=close_websocket&userId=20674522&roomId=1&enterRoomTimes=714325
+2014-10-13 15:18:26 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-10-13 15:18:28 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-10-13 15:18:28 | frontend.info | INFO  |act=atom&uid=608598&post_data={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}
+2014-10-13 15:18:28 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-10-13 15:18:28 | frontend.info | INFO  |188 | AtomicAction | 0 | request={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}&response={"seq_id":123,"code":0,"act":"atom_response"}
+2014-10-13 15:18:29 | frontend.info | INFO  |act=enter_room&uid=608598&rid=1&post_data={"act":"enter_room", "seq_id":456, "rid":1}
+2014-10-13 15:18:29 | frontend.info | INFO  |181 | EnterRoomAction | 0 | request={"act":"enter_room", "seq_id":456, "rid":1}&response={"seq_id":456,"code":0,"act":"enter_room_response"}
+2014-10-13 15:18:37 | frontend.info | INFO  |userId=608598&message=web server receive CloseWebsocket code from remote client.
+2014-10-13 15:18:37 | frontend.info | INFO  |act=close_websocket&userId=608598&roomId=1&enterRoomTimes=7508
+2014-10-13 15:18:37 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-10-13 15:18:43 | frontend.info | INFO  |act=atom&uid=608598&post_data={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}
+2014-10-13 15:18:43 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-10-13 15:18:43 | frontend.info | INFO  |301 | AtomicAction | 0 | request={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}&response={"seq_id":123,"code":0,"act":"atom_response"}
+2014-10-13 15:18:44 | frontend.info | INFO  |act=enter_room&uid=608598&rid=1&post_data={"act":"enter_room", "seq_id":456, "rid":1}
+2014-10-13 15:18:44 | frontend.info | INFO  |93 | EnterRoomAction | 0 | request={"act":"enter_room", "seq_id":456, "rid":1}&response={"seq_id":456,"code":0,"act":"enter_room_response"}
+2014-10-13 15:19:05 | frontend.info | INFO  |act=push_room_notify&rid=1&to_uid=608598&notify={"uid":608598,"rid":1,"from_uid":1111,"push_data_type":1,"act":"push"}
+2014-10-13 15:19:05 | frontend.info | INFO  |0 | PushNotifyAction | 0 | request={"uid":608598,"rid":1,"from_uid":1111,"push_data_type":1,"act":"push"}&response={"code":0,"act":"push_response"}
+2014-10-13 15:19:35 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-10-13 15:20:17 | frontend.info | INFO  |userId=608598&message=web server receive CloseWebsocket code from remote client.
+2014-10-13 15:20:18 | frontend.info | INFO  |act=close_websocket&userId=608598&roomId=1&enterRoomTimes=93426
+2014-10-13 15:20:18 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-10-13 15:20:20 | frontend.info | INFO  |act=atom&uid=608598&post_data={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}
+2014-10-13 15:20:20 | frontend.info | INFO  |channel_uid_map size:1    uid_channel_map size:1
+2014-10-13 15:20:20 | frontend.info | INFO  |266 | AtomicAction | 0 | request={"act":"atom", "seq_id":123, "sid":"e3c2bb2b39a78e70", "uid":608598}&response={"seq_id":123,"code":0,"act":"atom_response"}
+2014-10-13 15:20:21 | frontend.info | INFO  |act=enter_room&uid=608598&rid=1&post_data={"act":"enter_room", "seq_id":456, "rid":1}
+2014-10-13 15:20:21 | frontend.info | INFO  |120 | EnterRoomAction | 0 | request={"act":"enter_room", "seq_id":456, "rid":1}&response={"seq_id":456,"code":0,"act":"enter_room_response"}
+2014-10-13 15:20:27 | frontend.info | INFO  |act=push_room_notify&rid=1&to_uid=608598&notify={"uid":608598,"rid":1,"from_uid":1111,"push_data_type":1,"act":"push"}
+2014-10-13 15:20:27 | frontend.info | INFO  |0 | PushNotifyAction | 0 | request={"uid":608598,"rid":1,"from_uid":1111,"push_data_type":1,"act":"push"}&response={"code":0,"act":"push_response"}
+2014-10-13 15:20:33 | frontend.info | INFO  |act=pull_room_msg&uid=608598&rid=1&post_data={"act":"pull_msg","msg_type":1,"target_id":1,"chat_type":1, "msg_id_min":0, "page_size":50}
+2014-10-13 15:20:33 | frontend.info | INFO  |2142 | PullMessageAction | 0 | request={"act":"pull_msg","msg_type":1,"target_id":1,"chat_type":1, "msg_id_min":0, "page_size":50}&response={"data":{"msg_count":3,"msg_list":[{"content":"北京国安","duration":0,"status":1,"msg_type":1,"msg_id":13,"font_color":"#ffffff","user":{"id":1111},"time_stamp":1413184558050},{"content":"山东鲁能","duration":0,"status":1,"msg_type":1,"msg_id":14,"font_color":"#ffffff","user":{"id":1111},"time_stamp":1413184743824},{"content":"山东鲁能","duration":0,"status":1,"msg_type":1,"msg_id":15,"font_color":"#ffffff","user":{"id":1111},"time_stamp":1413184826511}],"enter_user_count":1},"seq_id":0,"code":0,"act":"pull_msg_response"}
+2014-10-13 15:21:00 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
+2014-10-13 15:27:33 | frontend.info | INFO  |act=push_sys_msg_notify&notifyid=1&to_uid=608598&notify={"to_uid":608598,"push_data_type":7,"notify_id":1,"act":"push"}
+2014-10-13 15:27:33 | frontend.info | INFO  |206 | PushNotifyAction | 0 | request={"to_uid":608598,"push_data_type":7,"notify_id":1,"act":"push"}&response={"code":0,"act":"push_response"}
+2014-10-13 15:28:03 | frontend.info | INFO  |userId=0&message=remote client trigger CHANNEL_INACTIVE event.
