@@ -16,6 +16,7 @@ public class GlobalObjectInitializer extends AbstractInitializer
 	{
 		SysObject.initRedisMaster(GlobalConfig.REDIS_MASTER_CONFIG_PATH);
 		SysObject.initRedisSlave(GlobalConfig.REDIS_SLAVE_CONFIG_PATH);
+		SysObject.initGuildSlave(GlobalConfig.GUILD_SLAVE_CONFIG_PATH);
 		SysObject.initWriteQueue(GlobalConfig.WRITE_QUEUE_CONFIG_PATH);
 		SysObject.initPushQueue(GlobalConfig.PUSH_QUEUE_CONFIG_PATH);
 		SysObject.initMysql(GlobalConfig.MYSQL_CONFIG_PATH);

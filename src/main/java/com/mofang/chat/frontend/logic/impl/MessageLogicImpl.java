@@ -325,7 +325,7 @@ public class MessageLogicImpl implements MessageLogic
 				logMsg.append("act=push_room_activity_notify&rid=" + roomId + "&to_uid=" + pushUserId + "&notify=" + notify);
 			}
 			else if(dataType == PushDataType.GROUP_NOTIFY)
-			{
+			{	
 				long groupId = json.optLong("group_id");
 				pushUserId = json.optLong("uid", 0);
 				String groupName = json.optString("name", "");
@@ -348,8 +348,8 @@ public class MessageLogicImpl implements MessageLogic
 				msgJson.put("content", message.getContent());
 				msgJson.put("msg_type", message.getMessageType());
 				JSONObject userJson = new JSONObject();
-				userJson.put("id", groupId);
-				User user = userService.getInfo(groupId);
+				userJson.put("id", message.getFromUserId());
+				User user = userService.getInfo(message.getFromUserId());
 				if(null != user)
 				{
 					userJson.put("nick_name", user.getNickName());
@@ -645,12 +645,14 @@ public class MessageLogicImpl implements MessageLogic
 				return null;
 			
 			long groupId = 0;
+			long fromUserId = 0;
 			JSONObject groupInfo = null;
 			for(GroupMessage message : messages)
 			{
+				fromUserId = message.getFromUserId();
 				groupId = message.getGroupId();
 				item = new JSONObject();
-				item.put("group_id", userId);
+				item.put("group_id", groupId);
 				
 				///获取群组名称
 				groupInfo = groupRedis.getInfo(groupId);
@@ -673,8 +675,8 @@ public class MessageLogicImpl implements MessageLogic
 				msgJson.put("msg_type", message.getMessageType());
 				msgJson.put("time_stamp", message.getTimeStamp());
 				JSONObject userJson = new JSONObject();
-				userJson.put("id", groupId);
-				User user = userService.getInfo(groupId);
+				userJson.put("id", fromUserId);
+				User user = userService.getInfo(fromUserId);
 				if(null != user)
 				{
 					userJson.put("nick_name", user.getNickName());
