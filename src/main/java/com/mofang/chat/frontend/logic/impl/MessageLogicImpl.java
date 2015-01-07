@@ -463,6 +463,22 @@ public class MessageLogicImpl implements MessageLogic
 				pushMsg.put("msg", msgJson);
 				logMsg.append("act=push_task_notify&to_uid=" + pushUserId + "&notify=" + notify);
 			}
+			else if(dataType == PushDataType.USER_MEDAL_NOTIFY)
+			{
+				pushUserId = json.optLong("to_uid", 0);
+				if(0 == pushUserId)
+					return;
+				
+				JSONObject msgJson = json.optJSONObject("msg");
+				if(null == msgJson)
+					return;
+				
+				pushMsg.put("act", "push_medal_notify");
+				pushMsg.put("is_show_notify", json.optBoolean("is_show_notify", false));
+				pushMsg.put("click_act", json.optString("click_act", ""));
+				pushMsg.put("msg", msgJson);
+				logMsg.append("act=push_medal_notify&to_uid=" + pushUserId + "&notify=" + notify);
+			}
 			
 			///处理推送消息
 			///如果channel可用，则使用channel推送
